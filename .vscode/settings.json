@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "DatingApp.sln",
+    "omnisharp.sdkVersion": "7.0.0"
+}
