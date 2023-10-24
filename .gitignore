@@ -478,3 +478,8 @@ $RECYCLE.BIN/
 API/appsettings.json
 .idea/
 API/.idea
+
+# Node
+/node_modules
+npm-debug.log
+Yarn-error.log
