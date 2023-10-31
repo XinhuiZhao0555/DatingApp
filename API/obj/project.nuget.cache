@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "AMKKJxQioaydFTNw74QaWegIvwQIMCXKeTr+si6Cwn/m5TUugN8JQEXv5imXGedKONiQa2L7J1/RbMHHDNg20w==",
+  "dgSpecHash": "DcwTzE3rLbYHNg3eJGEYWy54y2G2GBpw+LlwjWziPl7COAvNqrm52OpGRfPq03GuDrrTcOxA5mHkuaMf2QZF+A==",
   "success": true,
   "projectFilePath": "/Users/abc/beaconfire/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
     "/Users/abc/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/abc/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/Users/abc/.nuget/packages/cloudinarydotnet/1.20.0/cloudinarydotnet.1.20.0.nupkg.sha512",
     "/Users/abc/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/abc/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.10/microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
+    "/Users/abc/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "/Users/abc/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/abc/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/abc/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/abc/.nuget/packages/microsoft.data.sqlite.core/8.0.0-preview.5.23280.1/microsoft.data.sqlite.core.8.0.0-preview.5.23280.1.nupkg.sha512",
     "/Users/abc/.nuget/packages/microsoft.entityframeworkcore/8.0.0-preview.5.23280.1/microsoft.entityframeworkcore.8.0.0-preview.5.23280.1.nupkg.sha512",
