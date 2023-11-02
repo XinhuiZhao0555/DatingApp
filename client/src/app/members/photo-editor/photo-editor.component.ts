@@ -3,8 +3,8 @@ import { json } from 'body-parser';
 import { FileUploader } from 'ng2-file-upload';
 import { take } from 'rxjs';
 import { User } from 'src/app/_models/user';
-import { Member } from 'src/app/_modules/member';
-import { Photo } from 'src/app/_modules/photo';
+import { Member } from 'src/app/_models/member';
+import { Photo } from 'src/app/_models/photo';
 import { AccountService } from 'src/app/_services/account.service';
 import { MembersService } from 'src/app/_services/members.service';
 import { environment } from 'src/environments/environment';
@@ -82,6 +82,11 @@ export class PhotoEditorComponent implements OnInit{
       if(response) {
         const photo = JSON.parse(response);
         this.member?.photos.push(photo);
+        if(photo.isMain && this.user && this.member) {
+          this.user.photoUrl = photo.url;
+          this.member.photoUrl = photo.url;
+          this.accoundService.setCurrentUser(this.user);
+        }
       }
     }
   }

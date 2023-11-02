@@ -10,8 +10,8 @@ public class AppUser
     public byte[] PasswordSalt { get; set; }
     public DateOnly DateOfBirth { get; set; }
     public string KnownAs { get; set; }
-    public DateTime Created { get; set; }
-    public DateTime LastActive { get; set; }
+    public DateTime Created { get; set; } = DateTime.UtcNow;
+    public DateTime LastActive { get; set; } = DateTime.UtcNow;
     public string Gender { get; set; }
     public string Introduction { get; set; }
     public string LookingFor { get; set; }
@@ -20,8 +20,6 @@ public class AppUser
     public string Country { get; set; }
     public List<Photo> Photos { get; set; } = new();
 
-    /*public int GetAge()
-    {
-        return DateOfBirth.CalculateAge();
-    }*/
+    public List<AppUser> LikedByUsers { get; set; }
+    public List<AppUser> LikedUsers { get; set; }
 }
